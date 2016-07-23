@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/guanli_title_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="管理"
+            android:textSize="35dp"
+            android:gravity="center"/>
+
+        <View
+            android:id="@+id/guanli_line_2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/abc_search_url_text_selected"
+            android:layout_below="@+id/guanli_title_2" />
+
+        <TextView
+            android:id="@+id/guangli_tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更改信息"
+            android:textSize="25dp"
+            android:layout_below="@+id/guanli_line_2"
+            android:textColor="@color/abc_search_url_text" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guangli_tv_1"
+            android:id="@+id/guanli_table_1">
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="工装名称："
+                android:textSize="22dp"
+                />
+            <EditText
+                android:id="@+id/guanli_gai_name"
+                android:textSize="22dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="工装图号："
+                android:textSize="22dp"
+                />
+            <EditText
+                android:id="@+id/guanli_gai_code"
+                android:textSize="22dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="购入："
+                android:textSize="22dp"
+                />
+            <EditText
+                android:id="@+id/guanli_gai_in"
+                android:textSize="22dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="报废："
+                android:textSize="22dp"
+                />
+            <EditText
+                android:id="@+id/guanli_gai_out"
+                android:textSize="22dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+            <Button
+                android:id="@+id/guanli_gai_ok"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="确定"
+                android:textSize="20dp"/>
+        </TableRow>
+        </TableLayout>
+        <View
+            android:id="@+id/guanli_line_3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/abc_search_url_text_selected"
+            android:layout_below="@+id/guanli_table_1" />
+
+        <TextView
+            android:id="@+id/guangli_tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="增加工装："
+            android:textSize="25dp"
+            android:layout_below="@+id/guanli_line_3"
+            android:textColor="@color/abc_search_url_text" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guangli_tv_2"
+            android:id="@+id/guanli_table_2">
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="工装名称："
+                    android:textSize="22dp"
+                    />
+                <EditText
+                    android:id="@+id/guanli_zeng_name"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="工装图号："
+                    android:textSize="22dp"
+                    />
+                <EditText
+                    android:id="@+id/guanli_zeng_code"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="库存："
+                    android:textSize="22dp"
+                    />
+                <EditText
+                    android:id="@+id/guanli_zeng_in"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="总报废："
+                    android:textSize="22dp"
+                    />
+                <EditText
+                    android:id="@+id/guanli_zeng_out"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+                <Button
+                    android:id="@+id/guanli_zeng_ok"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="确定"
+                    android:textSize="20dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:id="@+id/guanli_line_4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/abc_search_url_text_selected"
+            android:layout_below="@+id/guanli_table_2" />
+
+        <TextView
+            android:id="@+id/guangli_tv_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除工装："
+            android:textSize="25dp"
+            android:layout_below="@+id/guanli_line_4"
+            android:textColor="@color/abc_search_url_text" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guangli_tv_3"
+            android:id="@+id/guanli_table_3">
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="工装名称："
+                    android:textSize="22dp"
+                    />
+                <EditText
+                    android:id="@+id/guanli_shan_name"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="工装图号："
+                    android:textSize="22dp"
+                    />
+                <EditText
+                    android:id="@+id/guanli_shan_code"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+                <Button
+                    android:id="@+id/guanli_shan_ok"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="确定"
+                    android:textSize="20dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

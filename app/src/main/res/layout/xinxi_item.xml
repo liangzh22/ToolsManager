@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shan_table">
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="工装名称："
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:id="@+id/xinxi_item_1"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="工装图号："
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:id="@+id/xinxi_item_2"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="库存："
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:id="@+id/xinxi_item_3"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="总报废："
+                    android:textSize="22dp"
+                    />
+                <TextView
+                    android:id="@+id/xinxi_item_4"
+                    android:textSize="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    />
+            </TableRow>
+        </TableLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
